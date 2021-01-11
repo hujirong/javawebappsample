@@ -15,7 +15,7 @@ node {
     }
   
     stage('build') {
-      bat 'C:\DevOps\apache-maven-3.6.3\bin\mvn clean package'
+      bat 'mvn clean package'
     }
   
     stage('deploy') {
